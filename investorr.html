@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investor Profiles — Animated</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+      margin: 0;
+      font-size: 2rem;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      width: 240px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 18px;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: bold;
+      margin: 0 0 6px 0;
+      color: #222;
+    }
+
+    .card-description {
+      font-size: 0.94rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>Top Investors</h1>
+
+<div class="container">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" />
+    <div class="card-content">
+      <h2 class="card-title">Sophia Patel</h2>
+      <p class="card-description">Tech investor focusing on AI & automation startups with global impact.</p>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" />
+    <div class="card-content">
+      <h2 class="card-title">James Walker</h2>
+      <p class="card-description">Specializes in healthcare innovations & biotech accelerators.</p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" />
+    <div class="card-content">
+      <h2 class="card-title">Emma Rodriguez</h2>
+      <p class="card-description">Backs sustainable energy, EV infra, and climate-tech startups.</p>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" />
+    <div class="card-content">
+      <h2 class="card-title">Michael Lee</h2>
+      <p class="card-description">Investor in fintech, micro-lending ecosystems, and global banking tech.</p>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a" />
+    <div class="card-content">
+      <h2 class="card-title">Ava Thompson</h2>
+      <p class="card-description">Focuses on fashion-tech, retail automation, and D2C brands.</p>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167" />
+    <div class="card-content">
+      <h2 class="card-title">Daniel Carter</h2>
+      <p class="card-description">Angel investor in robotics, drones, and defense technologies.</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
