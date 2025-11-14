@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* GRID LAYOUT */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* CARD DESIGN */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .desc {
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* MEDIA QUERIES */
+
+        /* Medium screens = 2 per row */
+        @media (max-width: 992px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Small screens = 1 per row */
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Coffee Menu</h1>
+
+        <div class="grid">
+
+            <!-- CARD 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Cappuccino">
+                <div class="card-title">Cappuccino <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Americano">
+                <div class="card-title">Americano <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.dByRjIi_hqH-mFGU4-mkPwHaE8?pid=Api&P=0&h=180" alt="Espresso">
+                <div class="card-title">Espresso <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.rT-yA6yxqzXTgH-5F2lyTAHaE8?pid=Api&P=0&h=180" alt="Macchiato">
+                <div class="card-title">Macchiato <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.q4MCd0-XhYc2pf2Cji5kkgHaEo?pid=Api&P=0&h=180" alt="Mocha">
+                <div class="card-title">Mocha <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Latte">
+                <div class="card-title">Coffee Latte <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Piccolo Latte">
+                <div class="card-title">Piccolo Latte <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.V5UalDKUhTbwf9E2TkUyGQHaEO?pid=Api&P=0&h=180" alt="Ristretto">
+                <div class="card-title">Ristretto <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+            <!-- CARD 9 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187" alt="Affogato">
+                <div class="card-title">Affogato <span class="price">$49</span></div>
+                <p class="desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
